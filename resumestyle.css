@@ -1,3 +1,32 @@
 .daterange {
     font-style: italic;
 }
+
+.descriptiontext {
+    font-family: "Cambria";
+    font-size: 15px;
+}
+
+.sectiontitle {
+    font-family: "Cambria";
+    font-size: 20px;
+}
+
+.descriptiontext li {
+    list-style-type: square;
+}
+
+#schoollist li {
+    list-style-type: none;
+    font-family: "Cambria";
+    font-size: 15px;
+}
+
+#name {
+    font-family: "Cambria";
+    font-size: 0px;
+}
+
+.jobtitle {
+    padding-bottom: none;
+}
