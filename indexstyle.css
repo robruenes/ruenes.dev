@@ -2,6 +2,8 @@ h4 {
     font-family: "Cambria";
     font-size: 32px;
     color: blue;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 a {
