@@ -1,0 +1,46 @@
+//Robert Ruenes
+//Comp150VIZ
+//Assignment 1 - Draw Box
+
+int counter = 0;
+float dimension1, dimension2, rectwidth, rectheight;
+float size = 400;
+color c1 = color(204, 102, 0);
+color c2 = color(0, 102, 204);
+
+void setup() {
+  size((int)size, (int)size);
+}
+
+void draw() {
+  background(255);
+  if((counter % 2) == 0) {
+    rectwidth = 150;
+    rectheight = 50;
+    dimension1 = (size * .5) - (rectwidth * .5);
+    dimension2 = (size * 0.5) - (rectheight * 0.5);
+    fill(c1);
+    rect(dimension1, dimension2, rectwidth, rectheight);
+    fill(0);
+    text("Orange!", dimension1, dimension2);
+  }
+  else {
+    rectwidth = 75;
+    rectheight = 25;
+    dimension1 = (size * .5) - (rectwidth * .5);
+    dimension2 = (size * .5) - (rectheight * .5);
+    fill(c2);
+    rect(dimension1, dimension2, rectwidth, rectheight);
+    fill(0);
+    text("Blue!", dimension1, dimension2);
+  }
+} 
+  
+void mouseClicked() {
+  if((mouseX >= dimension1) && 
+     (mouseX <= (size-dimension1)) && (mouseY >= dimension2) &&
+     (mouseY <= (size-dimension2))) {
+       counter++;
+     }
+}
+  

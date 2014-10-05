@@ -1,0 +1,57 @@
+h1 {
+	text-align: center;
+	font-family: georgia;
+}
+
+body{
+	background-color: #009999;
+}
+
+p {
+	color: white;
+}
+
+img {
+	width:200px;
+	height:200px;
+}
+
+a {
+	color: #660BAB;
+}
+
+div {
+	text-align: center;
+	background-color: #00CC00;
+	border-radius: 10px;
+	width: auto;
+	border: 3px solid white;
+}
+
+ul {
+	color:white;
+}
+
+table {
+	border: 2px solid white;
+}
+
+#centereach{
+	color: #660BAB;
+}
+
+.subheader{
+	background-color: #FF0000;
+}
+
+.weaponpic {
+	width: 200px;
+	height: 200px;
+}
+
+.weapons {
+	text-align:center;
+	background-color: #FF7400;
+	margin-left:auto;
+	margin-right:auto;
+}

@@ -1,0 +1,100 @@
+HTTP/1.1 200 OK
+Date: Tue, 17 Sep 2013 02:45:17 GMT
+Server: Apache/2.2.15 (Red Hat)
+Last-Modified: Tue, 17 Sep 2013 02:38:59 GMT
+ETag: "86be7c-efe-4e68b391bdecb"
+Accept-Ranges: bytes
+Content-Length: 3838
+Content-Type: text/html; charset=UTF-8
+Connection: close
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Rob's Fencing Webpage</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+	<div>
+		<h1 class="main_header">Fencing: The Oldest Olympic Sport</h1>
+	</div>
+
+	<br>
+
+	<div class="subheader">
+		<h2>Personal Experience</h2>
+	</div>
+	
+	<p>I began fencing my freshman year at <span id="centereach">Centereach High School</span> in Centereach, New York, where I grew up. 
+	   Although the sport is not found in many high schools around the country, the tri-state area
+	   flourished as a hub for this sport back in the 80s, and a strong fencing community still exists
+	   on Long Island today - Rocky Point's Mission Fencing Center is the largest club in the country and has served
+	   as a practice space for countless world class fencers. </p>
+
+	 <p>Most of my friends had older siblings who were captains on the team when I was a freshman, and as such
+	 we felt compelled to join. I fenced epee for three years, and fenced foil my senior year to make up for
+	 a newly emptied spot in the varsity squad that needed to be filled in. Since my matriculation at Tufts,
+	 I've returned to fencing epee, and am now captain of the <a href="http://ase.tufts.edu/mensfencing/">Tufts Men's Fencing Team</a>.
+	 </p>
+
+	<p>The Tufts Men's Fencing Team primarily competes in the Spring semester, although we hold practices three times a week
+	during the Fall semester and attend "The Big One" at Smith College every November. Unlike our meets and tournaments in the Spring,
+	"The Big One" is an individual's event, so it's every man for himself. In the Spring we fence both nearby club and varsity teams,
+	facing strong competition from schools like MIT, Dartmouth, and Boston College. In April we attend Club Nationals, where we fence
+	an even wider selection of teams. This year's Club Nationals is going to be held in Knoxville, Tennesee.
+	</p>
+		
+
+
+	 <div class="subheader">
+	 	<h2>How does fencing work?</h2>
+	 </div>
+	 <p>Although one of the oldest olympic sports, many people do not know the rules of fencing. There are three different weapons (descibed in the <a href="#weapontable">table</a> below),
+	 	but some factors are common to all three:</p>
+	 		<ul>
+	 			<li>Bouts take place on a strip/piste, which is between 1.5 and 2 meters wide, and is 14 meters long.</li>
+	 			<li>The en garde lines are two meters in each direction from the midpoint.</li>
+	 			<li>Warning lines exist two meters from the end of the strip in both directions.</li>
+	 			<li>If a fencer crosses the end of the strip, their opponent receives a touch.</li>
+	 			<li>The typical bout lasts to 5 touches.</li>
+	 		</ul>
+	 
+
+	 <div class="weapons">
+    	<h2>Weapon Distinctions</h2>
+    </div>
+
+	<br>
+	<table border="1" class="weapons" id="weapontable">
+		<tr>
+			<td>Weapon Image</td>
+			<td>Weapon Name</td>
+			<td>Valid Target Area</td>
+			<td><a href="http://en.wikipedia.org/wiki/Priority_(fencing)">Right of Way</a></td>
+		<!---epee-->
+		<tr>
+			<td><img class="weaponpic" alt="Epee" src="http://www.leonpaul.com/acatalog/fencing_sword_12lp.jpg"></td>
+			<td>Epee</td>
+			<td>The entire body is valid target area in epee.</td>
+			<td>Right of way is not in play in epee.</td>
+		</tr>
+		<!--foil-->
+		<tr>
+			<td><img class="weaponpic" alt="Foil" src="http://www.leonpaulusa.com/acatalog/f6pmax_rp.jpg"></td>
+			<td>Foil</td>
+			<td>The chest area up to and including the neck is valid target area in foil.</td>
+			<td>Right of way is in play in foil.</td>
+		</tr>
+		<!--sabre-->
+		<tr>
+			<td><img class="weaponpic" alt="Sabre" src="http://www.leonpaulusa.com/acatalog/fencing_sword_s2pfsx.jpg"></td>
+			<td>Sabre</td>
+			<td>Everything above the waist is valid target in saber fencing.</td>
+			<td>Right of way is in play in foil.</td>
+		</tr>
+
+	</table>
+
+</body>
+</html>

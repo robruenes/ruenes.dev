@@ -1,16 +1,237 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Robert Ruenes - Homepage</title>
-    <link rel="stylesheet" type="text/css" href="indexstyle.css">
-    <meta charset="UTF-8">
-</head>
-<body>
-    <h4>Robert Ruenes</h4>
-    <img src="me.jpg" alt="This is me!"/>
-    <br>
-    <a href="bio.html">Read a bit about me.</a>
-    <br>
-    <a href="resume.html">Check out my resume.</a>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+
+    <title>Robert W. Ruenes</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+    
+    <script src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/smoothscroll.js"></script> 
+    <script src="assets/js/Chart.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body data-spy="scroll" data-offset="0" data-target="#nav">
+
+	<div id="section-topbar">
+		<div id="topbar-inner">
+			<div class="container">
+				<div class="row">
+					<div class="dropdown">
+						<ul id="nav" class="nav">
+							<li class="menu-item"><a class="smoothScroll" href="#" title="About"><i class="icon-home"></i></a></li>
+							<li class="menu-item"><a class="smoothScroll" href="ruenesresume.pdf" title="Resume"><i class="icon-file"></i></a></li>
+							<li class="menu-item"><a class="smoothScroll" href="projects.html" title="Projects"><i class="icon-briefcase"></i></a></li>
+							<li class="menu-item"><a class="smoothScroll" href="#contact" title="Contact"><i class="icon-envelope"></i></a></li>
+						</ul><!--/ uL#nav -->
+					</div><!-- /.dropdown -->
+
+					<div class="clear"></div>
+				</div><!--/.row -->
+			</div><!--/.container -->
+
+			<div class="clear"></div>
+		</div><!--/ #topbar-inner -->
+	</div><!--/ #section-topbar -->
+	
+	<div id="headerwrap">
+		<div class="container">
+			<div class="row centered">
+				<div class="col-lg-12">
+					<h1>Robert W. Ruenes</h1>
+					<h3>CS Major at Tufts | robruenes@gmail.com</h3>
+				</div><!--/.col-lg-12 -->
+			</div><!--/.row -->
+		</div><!--/.container -->
+	</div><!--/.#headerwrap -->
+	
+
+	<section id="about" name="about"></section>
+	<div id="intro">
+		<div class="container">
+			<div class="row">
+				
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>ABOUT</h5>
+				</div>
+				<div class="col-lg-6">
+					<p>I'm a Computer Science student at Tufts University. I have completed my major as of May 2014 and am currently taking classes in Concurrent Programming, Web Programming, and Operating Systems. <a href="projects.html">Here</a> are some projects I've worked on. Aside from Computer Science, I am an avid music lover, and am captain of the Tufts Men's Fencing Team.
+				</div>
+				<div class="col-lg-3">
+					<p><a href="ruenesresume.pdf"><i class="icon-file"></i></a> <sm>VIEW RESUME</sm></p>
+				</div>
+				
+			</div><!--/.row -->
+		</div><!--/.container -->
+	</div><!--/ #intro -->
+
+
+	<section id="resume" name="resume"></section>
+	<!--EDUCATION DESCRIPTION -->
+	<div class="container desc">
+		<div class="row">
+
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>EDUCATION</h5>
+				</div>
+				<div class="col-lg-6">
+					<p><t>Computer Science, B.S.</t><br/>
+						Tufts University <br/>
+						<b>Relevant Courses:</b> Internet-Scale Distributed Systems, Concurrent Programming, Web Programming, Operating Systems, Object-Oriented Programming for Graphical User Interfaces, Visualization, Data Structures, Algorithms, Computation Theory
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>GRADUATING IN DEC 2014</sm><br/>
+					<imp><sm>IN PROGRESS</sm></imp>
+					</p>
+				</div>
+	
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><t>Advanced Regents Diploma</t><br/>
+						Centereach High School<br/>
+						<i>Class Salutatorian</i>
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>JUNE 2011</sm></p>
+				</div>
+	
+		</div><!--/.row -->
+		<br>
+		<hr>
+	</div><!--/.container -->
+	
+	
+	<!--WORK DESCRIPTION -->
+	<div class="container desc">
+		<div class="row">
+
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>WORK</h5>
+				</div>
+				<div class="col-lg-6">
+					<p><t>Software Development Intern</t><br/>
+						Galatea Associates<br/>
+		
+					<p>Completed development and improved extensibility of an integration test project usind to catch bugs in the development stage of a stock position keeping system utilized by investment bankers.</p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>JUNE 2014 - CURRENT</sm></p>
+				</div>
+	
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><t>Computing and Analytics Intern</t><br/>
+						MIT Lincoln Laboratory<br/>
+					</p>
+
+					<p>Contributed to a big data project by creating a tool to automatically collect new data daily, writing MapReduce jobs to perform analysis on the data set, and implementing new features in a web-based visual tool used to view and analyze the data set.</p>
+				</div>
+                <div class="col-lg-3">
+					<p><sm>JUNE 2013 - AUGUST 2013</sm></p>
+				</div>
+	
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><t>Teaching Assistant</t><br/>
+						Tufts University Computer Science Department<br/>
+					</p>
+
+					<p>In my time at Tufts I have TA'd for Intro to Computer Science twice and Machine Structure and Assembly Language Programming once. Responsibilities included assisting students during office hours, running lab sections, and grading student work.</p>
+				</div>
+                <div class="col-lg-3">
+					<p><sm>SEPTEMBER 2012 - DECEMBER 2013</sm></p>
+				</div>
+	
+		</div><!--/.row -->
+		<br>
+		<hr>
+	</div><!--/.container -->
+
+
+	<!--AWARDS DESCRIPTION -->
+	<div class="container desc">
+		<div class="row">
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>ACHIEVEMENTS</h5>
+				</div>
+				<div class="col-lg-6">
+					<p><t>Dean's List</t><br/>
+						All six semesters at Tufts. <br/>
+					</p>
+				</div>
+		        <div class="col-lg-3">
+					<p><sm>SEPTEMBER 2011 - MAY 2014</sm></p>
+				</div>
+	
+
+		</div><!--/.row -->
+		<br>
+	</div><!--/.container -->
+	
+
+	<section id="contact" name="contact"></section>
+	<!--FOOTER DESCRIPTION -->
+	<div id="footwrap">
+		<div class="container">
+			<div class="row">
+			
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>CONTACT</h5>
+				</div>
+				<div class="col-lg-6">
+					<p><t>Email</t><br/>
+						robruenes@gmail.com <br/>
+					</p>
+					<p><t>Address</t><br/>
+						98 W. Quincy Street <br/>
+						Somerville, MA 02144 <br/>
+					</p>
+					<p><t>Phone</t><br/>
+						+1 (631) 245-4071 <br/>
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>SOCIAL LINKS</sm></p>
+					<p>
+						<a href="http://www.linkedin.com/pub/robert-ruenes/72/31a/668"><i class="icon-linkedin"></i></a>
+						<a href="https://github.com/robruenes"><i class="icon-github"></i></a>
+
+					</p>
+				</div>
+			</div><!--/.row -->
+		</div><!--/.container -->
+	</div><!--/ #footer -->
+	
+	<div id="c">
+		<div class="container">
+			<p>Created by <a href="http://www.blacktie.co">BLACKTIE.CO</a></p>
+		
+		</div>
+	</div>
+	
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/bootstrap.js"></script>
+  </body>
 </html>
