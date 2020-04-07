@@ -1,0 +1,36 @@
+#content {
+  display: grid;
+  grid-template-columns: 20% 220px 5% auto;
+  grid-template-rows: 220px auto;
+  margin-top: 4%;
+}
+
+#intro {
+  grid-column-start: 4;
+  max-width: 600px;
+}
+
+#sidebar {
+  grid-column-start: 2;
+}
+
+#me {
+  border-radius: 50%;
+  grid-column-start: 2;
+  width: 200px;
+  border: 1px solid #fd971f;
+}
+
+ul {
+  list-style-type: none;
+  margin: 10px 0px 0px 0px;
+  padding: 0px;
+}
+
+#contact {
+  color: #a6e22e;
+}
+
+#social {
+  color: #e6db74;
+}

@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500&display=swap");
+
+body {
+  background-color: #272822;
+  color: #f8f8f2;
+  font-family: "Source Code Pro", monospace;
+}
+
+h1 {
+  color: #f92672;
+}
+
+a {
+  color: #66d9ef;
+}
+
+a:visited {
+  color: #ae81ff;
+}

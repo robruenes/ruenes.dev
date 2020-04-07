@@ -1,233 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="assets/ico/favicon.png">
+    <title>Rob Ruenes</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles/monokai.css" />
 
-    <title>Robert W. Ruenes</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="assets/css/main.css" rel="stylesheet">
-    
-	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
-    
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
-    
-    <script src="assets/js/jquery.min.js"></script>
-    <script type="text/javascript" src="assets/js/smoothscroll.js"></script> 
-    <script src="assets/js/Chart.js"></script>
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="assets/js/html5shiv.js"></script>
-      <script src="assets/js/respond.min.js"></script>
-    <![endif]-->
+    <!-- <link rel="stylesheet" type="text/css" href="styles/greenstyle.css" /> -->
+    <link rel="stylesheet" type="text/css" href="styles/index.css" />
   </head>
+  <!-- TODO: Make this page look better on mobile devices. -->
+  <body>
+    <div id="content">
+      <img
+        id="me"
+        alt="A photo of me, drinking a beer, very much like the 'Lazy College Senior' meme"
+        src="assets/me.jpg"
+      />
+      <div id="intro">
+        <h1>Oh, Hello! 👋</h1>
+        <p>I'm Rob, nice to meet you!</p>
+        <p>
+          I currently reside in Brooklyn's Park Slope with my partner, Martha.
+        </p>
+        <p>
+          I was born and raised on Long Island, and then spent four really great
+          years at <a href="https://www.tufts.edu">Tufts University</a> in
+          Medford, MA. I graduated Summa Cum Laude with a B.S. in Computer
+          Science.
+        </p>
+        <p>
+          Since then, I've been employed by this website called
+          <a href="https://www.google.com">Google</a>, working with a bunch of
+          freaky-smart folks on our News products in Search.
+        </p>
+        <p>
+          You can find an online version of
+          <a href="resume.html">my resume here</a>.
+        </p>
+        <p>
+          Outside of work, my biggest interests are music, politics, and gaming.
+          I'm a metalhead and record collector (nearing 100!), I volunteer for
+          <a href="https://www.berniesanders.com"
+            >Bernie Sanders' 2020 Presidential Campaign</a
+          >, and lately, the first thing I do in the morning is find my Switch
+          and start up
+          <a href="https://www.animal-crossing.com/new-horizons/"
+            >Animal Crossing</a
+          >.
+        </p>
+      </div>
+      <div id="sidebar">
+        <p id="contact">
+          Want to reach out? Email me: <br />
+          <a href="mailto:rob@ruenes.dev">rob@ruenes.dev</a>
+        </p>
 
-  <body data-spy="scroll" data-offset="0" data-target="#nav">
-
-	<div id="section-topbar">
-		<div id="topbar-inner">
-			<div class="container">
-				<div class="row">
-					<div class="dropdown">
-						<ul id="nav" class="nav">
-							<li class="menu-item"><a class="smoothScroll" href="#" title="About"><i class="icon-home"></i></a></li>
-							<li class="menu-item"><a class="smoothScroll" href="resume.pdf" title="Resume"><i class="icon-file"></i></a></li>
-							<li class="menu-item"><a class="smoothScroll" href="projects.html" title="Projects"><i class="icon-briefcase"></i></a></li>
-							<li class="menu-item"><a class="smoothScroll" href="#contact" title="Contact"><i class="icon-envelope"></i></a></li>
-						</ul><!--/ uL#nav -->
-					</div><!-- /.dropdown -->
-
-					<div class="clear"></div>
-				</div><!--/.row -->
-			</div><!--/.container -->
-
-			<div class="clear"></div>
-		</div><!--/ #topbar-inner -->
-	</div><!--/ #section-topbar -->
-	
-	<div id="headerwrap">
-		<div class="container">
-			<div class="row centered">
-				<div class="col-lg-12">
-					<h1>Robert W. Ruenes</h1>
-					<h3>Software Engineer @ Google | Tufts University Alumnus</h3>
-				</div><!--/.col-lg-12 -->
-			</div><!--/.row -->
-		</div><!--/.container -->
-	</div><!--/.#headerwrap -->
-	
-
-	<section id="about" name="about"></section>
-	<div id="intro">
-		<div class="container">
-			<div class="row">
-				
-				<div class="col-lg-2 col-lg-offset-1">
-					<h5>ABOUT</h5>
-				</div>
-				<div class="col-lg-6">
-					<p> I'm a Software Engineer at Google in New York City, working on new features for Google Search. I graduated from Tufts University, and hold a B.S. in Computer Science. I'm also a dog lover, metalhead, part time meditator, and professional napper.</p>
-				</div>
-				<div class="col-lg-3">
-					<p><a href="resume.pdf"><i class="icon-file"></i></a> <sm>VIEW RESUME</sm></p>
-				</div>
-				
-			</div><!--/.row -->
-		</div><!--/.container -->
-	</div><!--/ #intro -->
-
-
-	<section id="resume" name="resume"></section>
-	<!--EDUCATION DESCRIPTION -->
-	<div class="container desc">
-		<div class="row">
-
-				<div class="col-lg-2 col-lg-offset-1">
-					<h5>EDUCATION</h5>
-				</div>
-				<div class="col-lg-6">
-					<p><t>Computer Science, B.S.</t><br/>
-						Tufts University <br/>
-						<i>Summa Cum Laude</i> <br/>
-						<b>Relevant Courses:</b> Internet-Scale Distributed Systems, Concurrent Programming, Web Programming, Operating Systems, Object-Oriented Programming for Graphical User Interfaces, Visualization, Data Structures, Algorithms, Computation Theory
-					</p>
-				</div>
-				<div class="col-lg-3">
-					<p><sm>FEBRUARY 2015</sm></p>
-				</div>
-	
-				<div class="col-lg-6 col-lg-offset-3">
-					<p><t>Advanced Regents Diploma</t><br/>
-						Centereach High School<br/>
-						<i>Class Salutatorian</i>
-					</p>
-				</div>
-				<div class="col-lg-3">
-					<p><sm>JUNE 2011</sm></p>
-				</div>
-	
-		</div><!--/.row -->
-		<br>
-		<hr>
-	</div><!--/.container -->
-	
-	
-	<!--WORK DESCRIPTION -->
-	<div class="container desc">
-		<div class="row">
-
-				<div class="col-lg-2 col-lg-offset-1">
-					<h5>WORK</h5>
-				</div>
-
-				<div class="col-lg-6">
-					<p><t>Software Engineer</t></br>
-					Google</br>
-					</br>
-					I work on new features for Google Search with some of the best engineers around. 
-					</br>
-					Recently, my team launched <a href="https://googleblog.blogspot.com/2016/02/amping-up-in-mobile-search.html">AMP results in mobile search</a>.
-				</div>
-				<div class="col-lg-3">
-					<p><sm>JULY 2015 - Present</sm></p>
-				</div>
-
-				<div class="col-lg-6 col-lg-offset-3">
-					<p><t>Graduate Teaching Assistant</t><br/>
-						Tufts University Computer Science Department<br/>
-		
-					<p>During the Spring 2015 semester at Tufts I worked as a Graduate TA, holding office hours and grading assignments for courses in Programming Languages and Internet-Scale Distributed Systems.</p>
-				</div>
-				<div class="col-lg-3">
-					<p><sm>JANUARY 2015 - MAY 2015</sm></p>
-				</div>
-
-				<div class="col-lg-6 col-lg-offset-3">
-					<p><t>Software Development Intern</t><br/>
-						Galatea Associates<br/>
-		
-					<p>Completed development and improved extensibility of an integration test project used to catch bugs in the development stage of a stock position keeping system utilized by investment bankers.</p>
-				</div>
-				<div class="col-lg-3">
-					<p><sm>JUNE 2014 - DECEMBER 2014</sm></p>
-				</div>
-	
-				<div class="col-lg-6 col-lg-offset-3">
-					<p><t>Computing and Analytics Intern</t><br/>
-						MIT Lincoln Laboratory<br/>
-					</p>
-
-					<p>Contributed to a big data project by creating a tool to automatically collect new data daily, writing MapReduce jobs to perform analysis on the data set, and implementing new features in a web-based visual tool used to view and analyze the data set.</p>
-				</div>
-                <div class="col-lg-3">
-					<p><sm>JUNE 2013 - AUGUST 2013</sm></p>
-				</div>
-	
-				<div class="col-lg-6 col-lg-offset-3">
-					<p><t>Teaching Assistant</t><br/>
-						Tufts University Computer Science Department<br/>
-					</p>
-
-					<p>During my undergrad at Tufts I TA'd for Intro to Computer Science twice and Machine Structure and Assembly Language Programming once. Responsibilities included assisting students during office hours, running lab sections, and grading student work.</p>
-				</div>
-                <div class="col-lg-3">
-					<p><sm>SEPTEMBER 2012 - DECEMBER 2013</sm></p>
-				</div>
-	
-		</div><!--/.row -->
-		<br>
-		<hr>
-	</div><!--/.container -->
-
-
-	<section id="contact" name="contact"></section>
-	<!--FOOTER DESCRIPTION -->
-	<div id="footwrap">
-		<div class="container">
-			<div class="row">
-			
-				<div class="col-lg-2 col-lg-offset-1">
-					<h5>CONTACT</h5>
-				</div>
-				<div class="col-lg-6">
-					<p><t>Email</t><br/>
-						robruenes (at) gmail dot com <br/>
-					</p>
-					<p><t>Phone</t><br/>
-						+1 (631) 245-4071 <br/>
-					</p>
-					<p><t>Social</t><br/>
-						<a href="https://www.facebook.com/robert.ruenes"><i class="icon-facebook"></i></a>
-						<a href="https://www.twitter.com/robruenes"><i class="icon-twitter"></i></a>
-						<a href="http://www.linkedin.com/pub/robert-ruenes/72/31a/668"><i class="icon-linkedin"></i></a>
-						<a href="https://github.com/robruenes"><i class="icon-github"></i></a>
-					</p>
-
-				</div>
-			</div><!--/.row -->
-		</div><!--/.container -->
-	</div><!--/ #footer -->
-	
-	<div id="c">
-		<div class="container">
-			<p>Created by <a href="http://www.blacktie.co">BLACKTIE.CO</a></p>
-		
-		</div>
-	</div>
-	
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="assets/js/bootstrap.js"></script>
+        <p id="social">Social Media Presence:</p>
+        <ul>
+          <li><a href="https://www.github.com/robruenes">Github</a></li>
+          <li><a href="https://www.facebook.com/robert.ruenes">Facebook</a></li>
+          <li>
+            <a href="https://www.linkedin.com/in/robert-ruenes-66831a72/"
+              >LinkedIn</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
   </body>
 </html>

@@ -1,4 +1,4 @@
 Personal Webpage
 ================
 
-This repo contains my personal webpage.
+This repo contains my (rarely updated) personal webpage.
