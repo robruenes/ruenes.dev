@@ -1,4 +1,5 @@
-Personal Webpage
+ruenes.dev
 ================
 
-This repo contains my (rarely updated) personal webpage.
+This repo contains my personal webpage, hosted using [Github Pages](https://pages.github.com),
+and built using good old reliable static HTML and CSS.
