@@ -11,8 +11,8 @@
 /* Tablet and Desktop Styling */
 @media screen and (min-width: 426px) {
   body {
-    margin-left: 18%;
-    margin-right: 18%;
+    margin-left: 22%;
+    margin-right: 22%;
     margin-top: 4%;
   }
 }
