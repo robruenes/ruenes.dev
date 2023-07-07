@@ -3,6 +3,7 @@
   <head>
     <title>Experience - Rob Ruenes</title>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="icon"
       href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤘</text></svg>"
@@ -25,7 +26,7 @@
           alt="a portrait of me"
         />
       </picture>
-      <ul class="contact">
+      <ul class="desktop-contact">
         <li class="six-hundred">Rob Ruenes</li>
         <li><a href="mailto:rob@ruenes.dev">📧 Email Me</a></li>
         <li><a href="https://github.com/robruenes">😸 Github</a></li>
@@ -34,10 +35,21 @@
         </li>
       </ul>
     </div>
-    <div class="main-content">
-      <h1>404 😵</h1>
-      <p>Whoops! Looks like that page doesn't exist.</p>
-      <div><a href="index.html">⬅️ 🏠 Go Home</a></div>
+    <div class="main-col">
+      <h1 class="greeting">404 😵</h1>
+      <div class="content-core">
+        <p>Whoops! Looks like that page doesn't exist.</p>
+        <div class="home-link"><a href="index.html">⬅️ 🏠 Go Home</a></div>
+      </div>
+
+      <div class="mobile-contact">
+        <div class="six-hundred">Rob Ruenes</div>
+        <div>
+          <a href="mailto:rob@ruenes.dev">📧 Email Me</a> •
+          <a href="https://github.com/robruenes">😸 Github</a> •
+          <a href="https://www.linkedin.com/in/robruenes/">🧑🏻‍💻 LinkedIn</a>
+        </div>
+      </div>
     </div>
   </body>
 </html>
