@@ -1,21 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>This is not the page you're looking for</title>
+    <title>Experience - Rob Ruenes</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="styles/monokai.css" />
-    <link rel="stylesheet" type="text/css" href="styles/404.css" />
     <link
       rel="icon"
       href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤘</text></svg>"
-  />
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="styles/common.css" />
   </head>
   <body>
-    <div id="content">
-        <p id="emoji">😵</p>
+    <div class="left-col">
+      <picture>
+        <source srcset="assets/small_portrait.webp 2x" type="image/webp" />
+        <img
+          class="portrait"
+          src="assets/small_portrait.webp"
+          alt="a portrait of me"
+        />
+      </picture>
+      <ul class="desktop-contact">
+        <li class="six-hundred">Rob Ruenes</li>
+        <li><a href="mailto:rob@ruenes.dev">📧 Email Me</a></li>
+        <li><a href="https://github.com/robruenes">😸 Github</a></li>
+        <li>
+          <a href="https://www.linkedin.com/in/robruenes/">🧑🏻‍💻 LinkedIn</a>
+        </li>
+      </ul>
+    </div>
+    <div class="main-col">
+      <h1 class="greeting">404 😵</h1>
+      <div class="content-core">
         <p>Whoops! Looks like that page doesn't exist.</p>
-        <p><a href="index.html">Click here</a> to go back home.</p>
+        <div class="home-link"><a href="index.html">⬅️ 🏠 Go Home</a></div>
+      </div>
+
+      <div class="mobile-contact">
+        <div class="six-hundred">Rob Ruenes</div>
+        <div>
+          <a href="mailto:rob@ruenes.dev">📧 Email Me</a> •
+          <a href="https://github.com/robruenes">😸 Github</a> •
+          <a href="https://www.linkedin.com/in/robruenes/">🧑🏻‍💻 LinkedIn</a>
+        </div>
+      </div>
     </div>
   </body>
- 
+</html>

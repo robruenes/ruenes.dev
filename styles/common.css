@@ -1,0 +1,124 @@
+/* Common styling */
+body {
+  color: #1a1715;
+  background-color: #fffff8;
+  font-family: "Open Sans";
+}
+
+ul {
+  list-style-type: circle;
+}
+
+a,
+a:visited {
+  color: #4285f4;
+  text-decoration: none;
+}
+
+.previous-role {
+  font-style: italic;
+  font-size: 14px;
+}
+
+.g-blue {
+  color: #4285f4;
+}
+
+.g-green {
+  color: #0f9d58;
+}
+
+.g-red {
+  color: #db4437;
+}
+
+.g-yellow {
+  color: #f4b400;
+}
+
+a.awu {
+  color: #ed1c24;
+}
+
+.six-hundred {
+  font-weight: 600;
+}
+
+.portrait {
+  border-radius: 20px;
+}
+
+.left-col ul,
+.activities ul {
+  list-style-type: none;
+  list-style-type: none;
+}
+
+.activities ul {
+  padding-inline-start: 20px;
+}
+
+.home-link {
+  padding-bottom: 20px;
+}
+
+/* Mobile Styling */
+@media screen and (max-width: 425px) {
+  .desktop-contact {
+    display: none;
+  }
+
+  .mobile-contact {
+    display: inherit;
+    margin-left: 10%;
+    padding-bottom: 40px;
+  }
+
+  .left-col {
+    padding-top: 10%;
+    margin-left: 25%;
+  }
+
+  .greeting {
+    text-align: center;
+  }
+
+  .content-core {
+    width: 300px;
+    margin-left: 10%;
+  }
+
+  .content-core ul {
+    padding-inline-start: 20px;
+  }
+}
+
+/* Desktop and Tablet Styling */
+@media screen and (min-width: 426px) {
+  .left-col {
+    height: 100%;
+    margin-left: 40px;
+    margin-top: 40px;
+    position: fixed;
+    width: 200px;
+  }
+
+  .main-col {
+    padding-top: 32px;
+    width: 600px;
+    padding-left: 288px;
+  }
+
+  .left-col ul {
+    padding-inline-start: 10px;
+    margin-block-start: 10px;
+  }
+
+  .desktop-content {
+    display: inherit;
+  }
+
+  .mobile-contact {
+    display: none;
+  }
+}

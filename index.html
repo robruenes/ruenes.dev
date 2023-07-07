@@ -1,69 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Rob Ruenes</title>
+    <title>Home - Rob Ruenes</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="styles/monokai.css" />
-    <link rel="stylesheet" type="text/css" href="styles/index.css" />
     <link
       rel="icon"
       href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤘</text></svg>"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="styles/common.css" />
   </head>
   <body>
-    <div id="content">
-      <img
-        id="me"
-        alt="A photo of me, drinking a beer, very much like the 'Lazy College Senior' meme"
-        src="assets/me.jpg"
-      />
-      <div id="intro">
-        <h1>Oh, Hello! 👋</h1>
-        <p>I'm Rob, nice to meet you.</p>
-        <p>
-          I started working at <a href="https://www.google.com">Google</a> in
-          2015, and my current focus is on internal news APIs. You can find
-          <a href="resume.html">my resume here</a>.
+    <div class="left-col">
+      <picture>
+        <source srcset="assets/small_portrait.webp 2x" type="image/webp" />
+        <img
+          class="portrait"
+          src="assets/small_portrait.webp"
+          alt="a portrait of me"
+        />
+      </picture>
+      <ul class="desktop-contact">
+        <li class="six-hundred">Rob Ruenes</li>
+        <li><a href="mailto:rob@ruenes.dev">📧 Email Me</a></li>
+        <li><a href="https://github.com/robruenes">😸 Github</a></li>
+        <li>
+          <a href="https://www.linkedin.com/in/robruenes/">🧑🏻‍💻 LinkedIn</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="main-col">
+      <h1 class="greeting">Hey there 👋</h1>
+      <div class="content-core">
+        <p class="intro">
+          I'm Rob, a software engineer at
+          <a href="https://www.google.com" class="six-hundred"
+            ><span class="g-blue">G</span><span class="g-red">o</span
+            ><span class="g-yellow">o</span><span class="g-blue">g</span
+            ><span class="g-green">l</span><span class="g-red">e</span></a
+          >
+          and member of
+          <a class="awu six-hundred" href="https://www.alphabetworkersunion.org"
+            >AWU-CWA</a
+          >
+          based in Brooklyn. You can read more about my work
+          <a href="experience.html">here</a>.
         </p>
-        <p>
-          I'm a proud member of
-          <a href="https://www.alphabetworkersunion.org">
-            Alphabet Workers Union (AWU-CWA)</a
-          >, where I previously served as the NYC Chapter Coordinator. If you're
-          a fellow tech worker interested in building a democratic, ethical, and
-          equitable workplace, I encourage you to reach out to
-          <a href="https://code-cwa.org">CODE-CWA</a>.
-        </p>
-        <p>
-          When I'm not building software or my union, I spend my time practicing
-          guitar and trying to beat all of FromSoftware's Soulsborne games
-          (currently, Dark Souls: Remastered).
-        </p>
-        <p>
-          I graduated summa cum laude from
-          <a href="https://cs.tufts.edu">Tufts University</a> in Somerville, MA.
-          Before that, I grew up on Long Island, NY, where I attended public
-          school. Today, I live in New York City with my partner, where I run a
-          one-man organizing campaign to get a puppy. 🐶
-        </p>
+
+        <div class="activities">
+          Outside of my interest in technology and labor, here's what I'm up to
+          lately:
+          <ul>
+            <li>
+              <span class="six-hundred">🎮 Playing:</span> Final Fantasy XVI,
+              Metroid Prime, Link's Awakening
+            </li>
+            <li><span class="six-hundred">📺 Watching:</span> The Bear</li>
+            <li>
+              <span class="six-hundred">📚 Reading:</span> Babel, or the
+              Necessity of Violence
+            </li>
+            <li>
+              <span class="six-hundred">🎧 Listening to:</span> The Callous
+              Daoboys, Holy Fawn, Sleep Token
+            </li>
+          </ul>
+        </div>
       </div>
+    </div>
 
-      <div id="sidebar">
-        <p id="contact">
-          Want to reach out? Email me: <br />
-          <a href="mailto:rob@ruenes.dev">rob@ruenes.dev</a>
-        </p>
-
-        <p id="social">Social Media Presence:</p>
-        <ul>
-          <li><a href="https://union.place/@rob">Mastodon</a></li>
-          <li>
-            <a href="https://www.linkedin.com/in/robruenes/">LinkedIn</a>
-          </li>
-          <li><a href="https://www.github.com/robruenes">Github</a></li>
-          <li><a href="https://www.twitter.com/robruenes">Twitter (RIP)</a></li>
-        </ul>
+    <div class="mobile-contact">
+      <div class="six-hundred">Rob Ruenes</div>
+      <div>
+        <a href="mailto:rob@ruenes.dev">📧 Email Me</a> •
+        <a href="https://github.com/robruenes">😸 Github</a> •
+        <a href="https://www.linkedin.com/in/robruenes/">🧑🏻‍💻 LinkedIn</a>
       </div>
     </div>
   </body>
