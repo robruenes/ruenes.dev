@@ -1,327 +1,348 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Experience</title>
+    <title>Experience - Rob Ruenes</title>
     <meta charset="UTF-8" />
     <link
       rel="icon"
       href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤘</text></svg>"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="styles/common.css" />
   </head>
   <body>
-
     <div class="left-col">
       <picture>
-        <source srcset="assets/small_portrait.webp" type="image/webp" />
-        <img srcset="assets/small_portrait.webp" alt="a portrait of me"/>
+        <source srcset="assets/small_portrait.webp 2x" type="image/webp" />
+        <img
+          class="portrait"
+          src="assets/small_portrait.webp"
+          alt="a portrait of me"
+        />
       </picture>
-      <div class="contact">
-        <a href="mailto:rob@ruenes.dev">Email Me 📧</a>
-        <a href="https://github.com/robruenes">Github 😸🐙</a>
-        <a href="https://www.linkedin.com/in/robruenes/">LinkedIn 🧑🏻‍💻</a>
-      </div>
+      <ul class="contact">
+        <li class="six-hundred">Rob Ruenes</li>
+        <li><a href="mailto:rob@ruenes.dev">📧 Email Me</a></li>
+        <li><a href="https://github.com/robruenes">😸 Github</a></li>
+        <li>
+          <a href="https://www.linkedin.com/in/robruenes/">🧑🏻‍💻 LinkedIn</a>
+        </li>
+      </ul>
     </div>
 
-    <h1>Experience</h1>
+    <div class="main-content">
+      <h1>Experience</h1>
 
-    <div class="google">
-      <h2>
-        <a href="https://www.google.com">Google</a> - Staff Software Engineer
-      </h2>
-      <div class="previous-google-roles">
-        <div class="previous-role">
-          Senior Software Engineer (Oct 2018 - April 2023)
+      <div class="google">
+        <h2>
+          <a href="https://www.google.com"
+            ><span class="g-blue">G</span><span class="g-red">o</span
+            ><span class="g-yellow">o</span><span class="g-blue">g</span
+            ><span class="g-green">l</span><span class="g-red">e</span></a
+          >
+          - Staff Software Engineer
+        </h2>
+        <div class="previous-google-roles">
+          <div class="previous-role">
+            Senior Software Engineer (Oct 2018 - April 2023)
+          </div>
+          <div class="previous-role">
+            Software Engineer III (Oct 2016 - Oct 2018)
+          </div>
+          <div class="previous-role">
+            Software Engineer II (July 2015 - October 2016)
+          </div>
         </div>
-        <div class="previous-role">
-          Software Engineer III (Oct 2016 - Oct 2018)
-        </div>
-        <div class="previous-role">
-          Software Engineer II (July 2015 - October 2016)
+        <div class="content">
+          <p>
+            I joined Google NYC in 2015, and work across Google's suite of
+            Search and News products. My current area of focus involves reducing
+            the overall complexity of the distributed systems that power news
+            experiences across Google.
+          </p>
+          <p>
+            I'm a strong advocate for team culture rooted in psychological
+            safety and growth opportunities, having found that this makes a team
+            greater than the sum of its parts.
+          </p>
+          <div>
+            I've done a bit of everything over the years, including:
+            <ul>
+              <li>
+                Making significant contributions to Search's feature model and
+                rendering architecture
+              </li>
+              <li>
+                Improving our understanding of user queries at serving time
+              </li>
+              <li>
+                Designing, running, and analyzing dozens of live traffic A/B
+                experiments
+              </li>
+              <li>
+                Everything that comes with a production release rotation
+                (deployments, monitoring, resolving production outages, etc.)
+              </li>
+              <li>
+                Building rich, interactive user-interfaces in collaboration with
+                Design
+              </li>
+              <li>
+                Conducting qualitative user surveys in collaboration with UXR
+              </li>
+              <li>
+                Contributing to product roadmaps in collaboration with Product
+                Management
+              </li>
+              <li>
+                Streamlining internal processes in collaboration with Program
+                Management
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            A nonexhaustive list of the consumer-facing products I've led and
+            worked on:
+            <ul>
+              <li>
+                The latest version of
+                <a
+                  href="https://news.google.com/search?q=Joe%20Biden&hl=en-US&gl=US&ceid=US%3Aen"
+                  >search</a
+                >
+                in Google News (TL, 30+ contributors)
+              </li>
+              <li>
+                <a
+                  href="https://www.blog.google/products/search/connecting-people-covid-19-information-and-resources/"
+                  >COVID-19 experiences in Google Search</a
+                >
+                (News TL)
+              </li>
+              <li>
+                <a
+                  href="https://www.blog.google/products/search/smarter-organization-top-stories-search/"
+                  >Smarter organization of Top Stories in Search</a
+                >
+                (TL)
+              </li>
+              <li>
+                <a
+                  href="https://blog.google/outreach-initiatives/google-news-initiative/labeling-fact-check-articles-google-news/"
+                  >Labeling fact-check articles in Google News</a
+                >
+              </li>
+              <li>
+                AMP in Google Search (<a
+                  href="https://www.blog.google/products/search/amping-up-in-mobile-search/"
+                  >initial</a
+                >
+                and
+                <a
+                  href="https://www.blog.google/products/search/search-results-are-officially-ampd/"
+                  >expansion</a
+                >
+                launches)
+              </li>
+            </ul>
+          </div>
+          <div>
+            Other experience of note:
+            <ul>
+              <li>Current co-chair of our DEI Championship program</li>
+              <li>
+                Member of our inaugural Leading for Liberation cohort (with
+                <a href="https://adawaygroup.com">The Adaway Group</a>)
+              </li>
+              <li>
+                Hosted 5 engineers through the now-retired Engineering Residency
+                program (100% conversion rate to full-time)
+              </li>
+              <li>Mentored 5 summer interns</li>
+            </ul>
+          </div>
         </div>
       </div>
-      <div class="content">
+
+      <div class="awu-cwa">
+        <h2>
+          <a class="awu" href="https://www.alphabetworkersunion.org"
+            >Alphabet Workers Union-CWA</a
+          >
+          - Founding Member
+        </h2>
+        <div class="previous-role">NYC Chapter Coordinator (2021)</div>
+        <div class="content">
+          <p>
+            I'm one of the founding members of AWU-CWA, which we've grown into a
+            1400+ strong organization working to improve the conditions of every
+            worker at Alphabet. In our first public year, I was elected by our
+            membership to serve as NYC's first ever chapter coordinator.
+          </p>
+          <p>
+            You can learn more about our accomplishments
+            <a href="https://www.alphabetworkersunion.org/our-wins">here</a>,
+            and about CWA's Campaign to Organize Digital Employees
+            <a href="https://code-cwa.org">here</a>.
+          </p>
+        </div>
+      </div>
+
+      <div class="education">
+        <h2>Education</h2>
+        <h3><a href="https://www.tufts.edu">Tufts University</a></h3>
+
         <p>
-          I joined Google NYC in 2015, and work across Google's suite of Search
-          and News products. My current area of focus involves reducing the
-          overall complexity of the distributed systems that power news
-          experiences across Google.
+          I graduated Summa Cum Laude from Tufts with a B.S. in Computer
+          Science. A few members of the faculty I'm especially grateful for:
         </p>
+
+        <ul>
+          <li>
+            <a
+              href="https://engineering.tufts.edu/cs/people/faculty/remco-chang"
+              >Remco Chang</a
+            >, my Intro to CS professor, undergrad advisor, and lead at
+            <a href="https://valt.cs.tufts.edu">VALT</a>.
+          </li>
+          <li>
+            <a href="https://engineering.tufts.edu/cs/people/faculty/ming-chow"
+              >Ming Chow</a
+            >, my Data Structures professor and a ubiquotous influence on
+            everyone in the program
+          </li>
+          <li>
+            <a
+              href="https://engineering.tufts.edu/cs/people/faculty/noah-mendelsohn"
+            >
+              Noah Mendelsohn</a
+            >, who taught my favorite class, Internet-Scale Distributed Systems.
+            I'll never try to implement a remote file-transfer protocol in one
+            night again.
+          </li>
+        </ul>
+
         <p>
-          I'm a strong advocate for team culture rooted in psychological safety
-          and growth opportunities, having found that this makes a team greater
-          than the sum of its parts.
+          During my junior and senior year, I was epee captain on the
+          <a href="https://ase.tufts.edu/mensfencing/index.html"
+            >Men's Fencing Team</a
+          >.
         </p>
-        <div>
-          I've done a bit of everything over the years, including:
-          <ul>
-            <li>
-              Making significant contributions to Search's feature model and
-              rendering architecture
-            </li>
-            <li>Improving our understanding of user queries at serving time</li>
-            <li>
-              Designing, running, and analyzing dozens of live traffic A/B
-              experiments
-            </li>
-            <li>
-              Everything that comes with a production release rotation
-              (deployments, monitoring, resolving production outages, etc.)
-            </li>
-            <li>
-              Building rich, interactive user-interfaces in collaboration with
-              Design
-            </li>
-            <li>
-              Conducting qualitative user surveys in collaboration with UXR
-            </li>
-            <li>
-              Contributing to product roadmaps in collaboration with Product
-              Management
-            </li>
-            <li>
-              Streamlining internal processes in collaboration with Program
-              Management
-            </li>
-          </ul>
+      </div>
+
+      <div class="older-work">
+        <h2>Earlier Work</h2>
+        <div class="old-job">
+          <h3>
+            <a href="https://www.galatea-associates.com">Galatea Associates</a>
+            - Software Engineering Intern (2014)
+          </h3>
+          <div>
+            <ul>
+              <li>
+                Prototyped a modern stock-position keeping system in Node.js for
+                a large financial institution
+              </li>
+              <li>
+                Developed an integration testing suite for the client's
+                production stock position keeping system
+              </li>
+            </ul>
+          </div>
         </div>
 
-        <div>
-          A nonexhaustive list of the consumer-facing products I've led and
-          worked on:
+        <div class="old-job">
+          <h3>
+            <a href="https://www.ll.mit.edu">MIT Lincoln Lab</a> - Computing and
+            Analytics Intern (2013)
+          </h3>
+          <div>
+            <ul>
+              <li>
+                Built new visualization capabilities into a geospatial data
+                viewer using OpenStreetMaps and D3.js
+              </li>
+              <li>
+                Built a MapReduce data-ingestion pipeline to facilitate the
+                visualization of
+                <a href="https://www.gdeltproject.org">GDELT</a> in the
+                geospatial data viewer
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="old-job">
+          <h3>
+            <a href="https://engineering.tufts.edu/cs/"
+              >Tufts Department of Computer Science</a
+            >
+            - Teaching Assistant (2012-2015)
+          </h3>
+          During undergrad, I ran office hours, lab sections, and graded
+          assignments for:
           <ul>
             <li>
-              The latest version of
+              CS150-IDS - Internet-Scale Distributed Systems - taught by
               <a
-                href="https://news.google.com/search?q=Joe%20Biden&hl=en-US&gl=US&ceid=US%3Aen"
-                >search</a
-              >
-              in Google News (TL, 30+ contributors)
-            </li>
-            <li>
-              <a
-                href="https://www.blog.google/products/search/connecting-people-covid-19-information-and-resources/"
-                >COVID-19 experiences in Google Search</a
-              >
-              (News TL)
-            </li>
-            <li>
-              <a
-                href="https://www.blog.google/products/search/smarter-organization-top-stories-search/"
-                >Smarter organization of Top Stories in Search</a
-              >
-              (TL)
-            </li>
-            <li>
-              <a
-                href="https://blog.google/outreach-initiatives/google-news-initiative/labeling-fact-check-articles-google-news/"
-                >Labeling fact-check articles in Google News</a
+                href="https://engineering.tufts.edu/cs/people/faculty/noah-mendelsohn"
+                >Noah Mendelsohn</a
               >
             </li>
             <li>
-              AMP in Google Search (<a
-                href="https://www.blog.google/products/search/amping-up-in-mobile-search/"
-                >initial</a
+              CS105 - Programming Languages - taught by
+              <a
+                href="https://engineering.tufts.edu/cs/people/faculty/kathleen-fisher"
+                >Kathleen Fisher</a
+              >
+            </li>
+            <li>
+              CS40 - Machine Structure and Assembly Language Programming -
+              taught by
+              <a
+                href="https://engineering.tufts.edu/cs/people/faculty/noah-mendelsohn"
+                >Noah Mendelsohn</a
               >
               and
               <a
-                href="https://www.blog.google/products/search/search-results-are-officially-ampd/"
-                >expansion</a
+                href="https://engineering.tufts.edu/cs/people/faculty/mark-sheldon"
+                >Mark Sheldon</a
               >
-              launches)
-            </li>
-          </ul>
-        </div>
-        <div>
-          Other experience of note:
-          <ul>
-            <li>Current co-chair of our DEI Championship program</li>
-            <li>
-              Member of our inaugural Leading for Liberation cohort (with
-              <a href="https://adawaygroup.com">The Adaway Group</a>)
             </li>
             <li>
-              Hosted 5 engineers through the now-retired Engineering Residency
-              program (100% conversion rate to full-time)
-            </li>
-            <li>Mentored 5 summer interns</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <div class="awu">
-      <h2>
-        <a href="https://www.alphabetworkersunion.org"
-          >Alphabet Workers Union</a
-        >
-        - Founding Member
-      </h2>
-      <div class="previous-role">NYC Chapter Coordinator (2021)</div>
-      <div class="content">
-        <p>
-          I'm one of the founding members of AWU-CWA Local 9009, which we've
-          grown into a 1400+ strong organization working to improve the
-          conditions of every worker at Alphabet. In our first public year, I
-          was elected by our membership to serve as NYC's first ever chapter
-          coordinator.
-        </p>
-        <p>
-          You can learn more about our accomplishments
-          <a href="https://www.alphabetworkersunion.org/our-wins">here</a>, and
-          about CWA's Campaign to Organize Digital Employees
-          <a href="https://code-cwa.org">here</a>.
-        </p>
-      </div>
-    </div>
-
-    <div class="education">
-      <h2>Education</h2>
-      <h3><a href="https://www.tufts.edu">Tufts University</a></h3>
-
-      <p>
-        I graduated Summa Cum Laude from Tufts with a B.S. in Computer Science.
-        A few members of the faculty I'm especially grateful for:
-      </p>
-
-      <ul>
-        <li>
-          <a href="https://engineering.tufts.edu/cs/people/faculty/remco-chang"
-            >Remco Chang</a
-          >, my Intro to CS professor, undergrad advisor, and lead at
-          <a href="https://valt.cs.tufts.edu">VALT</a>.
-        </li>
-        <li>
-          <a href="https://engineering.tufts.edu/cs/people/faculty/ming-chow"
-            >Ming Chow</a
-          >, my Data Structures professor and a ubiquotous influence on everyone
-          in the program
-        </li>
-        <li>
-          <a
-            href="https://engineering.tufts.edu/cs/people/faculty/noah-mendelsohn"
-          >
-            Noah Mendelsohn</a
-          >, who taught my favorite class, Internet-Scale Distributed Systems.
-          I'll never try to implement a remote file-transfer protocol in one
-          night again.
-        </li>
-      </ul>
-
-      <p>
-        During my junior and senior year, I was epee captain on the
-        <a href="https://ase.tufts.edu/mensfencing/index.html"
-          >Men's Fencing Team</a
-        >.
-      </p>
-    </div>
-
-    <div class="older-work">
-      <h2>Earlier Work</h2>
-      <div class="old-job">
-        <h3>
-          <a href="https://www.galatea-associates.com">Galatea Associates</a> -
-          Software Engineering Intern (2014)
-        </h3>
-        <div>
-          <ul>
-            <li>
-              Prototyped a modern stock-position keeping system in Node.js for a
-              large financial institution
-            </li>
-            <li>
-              Developed an integration testing suite for the client's production
-              stock position keeping system
+              CS11 - Intro to Computer Science - taught by
+              <a
+                href="https://engineering.tufts.edu/cs/people/faculty/mark-sheldon"
+                >Mark Sheldon</a
+              >
             </li>
           </ul>
         </div>
       </div>
 
-      <div class="old-job">
-        <h3>
-          <a href="https://www.ll.mit.edu">MIT Lincoln Lab</a> - Computing and
-          Analytics Intern (2013)
-        </h3>
-        <div>
-          <ul>
-            <li>
-              Built new visualization capabilities into a geospatial data viewer
-              using OpenStreetMaps and D3.js
-            </li>
-            <li>
-              Built a MapReduce data-ingestion pipeline to facilitate the
-              visualization of
-              <a href="https://www.gdeltproject.org">GDELT</a> in the geospatial
-              data viewer
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="old-job">
-        <h3>
-          <a href="https://engineering.tufts.edu/cs/"
-            >Tufts Department of Computer Science</a
-          >
-          - Teaching Assistant (2012-2015)
-        </h3>
-        During undergrad, I ran office hours, lab sections, and graded
-        assignments for:
+      <div class="skills">
+        <h2>Technical Skills</h2>
         <ul>
           <li>
-            CS150-IDS - Internet-Scale Distributed Systems - taught by
-            <a
-              href="https://engineering.tufts.edu/cs/people/faculty/noah-mendelsohn"
-              >Noah Mendelsohn</a
-            >
+            <b>Programming Languages:</b> C++, Java, Python, ES6, Ruby, Golang,
+            Erlang
           </li>
-          <li>
-            CS105 - Programming Languages - taught by
-            <a
-              href="https://engineering.tufts.edu/cs/people/faculty/kathleen-fisher"
-              >Kathleen Fisher</a
-            >
-          </li>
-          <li>
-            CS40 - Machine Structure and Assembly Language Programming - taught
-            by
-            <a
-              href="https://engineering.tufts.edu/cs/people/faculty/noah-mendelsohn"
-              >Noah Mendelsohn</a
-            >
-            and
-            <a
-              href="https://engineering.tufts.edu/cs/people/faculty/mark-sheldon"
-              >Mark Sheldon</a
-            >
-          </li>
-          <li>
-            CS11 - Intro to Computer Science - taught by
-            <a
-              href="https://engineering.tufts.edu/cs/people/faculty/mark-sheldon"
-              >Mark Sheldon</a
-            >
-          </li>
+          <li><b>Data Analysis</b>: Google Colaboratory, SQL</li>
+          <li><b>Web Frameworks</b>: React, Rails 6, Node.js</li>
+          <li><b>Serialization Formats</b>: Protobuf, JSON, XML</li>
+          <li><b>Core Web Technologies</b>: HTML5, CSS3</li>
+          <li><b>Build Tools</b>: Bazel, Maven</li>
+          <li><b>VCS</b>: Git, Mercurial, Perforce, Subversion</li>
         </ul>
       </div>
-    </div>
 
-    <div class="skills">
-      <h2>Technical Skills</h2>
-      <ul>
-        <li>
-          <b>Programming Languages:</b> C++, Java, Python, ES6, Ruby, Golang,
-          Erlang
-        </li>
-        <li>
-          <b>Data Analysis</b>: Google Colaboratory, SQL
-        </li>
-        <li>
-          <b>Web Frameworks</b>: React, Rails 6, Node.js
-        </li>
-        <li><b>Serialization Formats</b>: Protobuf, JSON, XML</li>
-        <li><b>Core Web Technologies</b>: HTML5, CSS3</li>
-        <li><b>Build Tools</b>: Bazel, Maven</li>
-        <li><b>VCS</b>: Git, Mercurial, Perforce, Subversion</li>
+      <div><a href="index.html">⬅️ 🏠 Go Home</a></div>
     </div>
   </body>
 </html>

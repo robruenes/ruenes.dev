@@ -1,56 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Rob Ruenes</title>
+    <title>Home - Rob Ruenes</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="icon"
       href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤘</text></svg>"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="styles/common.css" />
   </head>
   <body>
     <div class="left-col">
       <picture>
-        <source srcset="assets/small_portrait.webp" type="image/webp" />
-        <img srcset="assets/small_portrait.webp" alt="a portrait of me" />
+        <source srcset="assets/small_portrait.webp 2x" type="image/webp" />
+        <img
+          class="portrait"
+          src="assets/small_portrait.webp"
+          alt="a portrait of me"
+        />
       </picture>
-      <div class="contact">
-        <a href="mailto:rob@ruenes.dev">Email Me 📧</a>
-        <a href="https://github.com/robruenes">Github 😸🐙</a>
-        <a href="https://www.linkedin.com/in/robruenes/">LinkedIn 🧑🏻‍💻</a>
+      <ul class="contact">
+        <li class="six-hundred">Rob Ruenes</li>
+        <li><a href="mailto:rob@ruenes.dev">📧 Email Me</a></li>
+        <li><a href="https://github.com/robruenes">😸 Github</a></li>
+        <li>
+          <a href="https://www.linkedin.com/in/robruenes/">🧑🏻‍💻 LinkedIn</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="main-content">
+      <div class="intro">
+        <h1 class="greeting">Hey there 👋</h1>
+        <p class="intro">
+          I'm Rob, a software engineer at
+          <a href="https://www.google.com" class="six-hundred"
+            ><span class="g-blue">G</span><span class="g-red">o</span
+            ><span class="g-yellow">o</span><span class="g-blue">g</span
+            ><span class="g-green">l</span><span class="g-red">e</span></a
+          >
+          and member of
+          <a class="awu six-hundred" href="https://www.alphabetworkersunion.org"
+            >AWU-CWA</a
+          >
+          based in Brooklyn. You can read more about my work
+          <a href="experience.html">here</a>.
+        </p>
       </div>
-    </div>
 
-    <div class="intro">
-      <h1 class="greeting">Hey there 👋</h1>
-      <p class="intro">
-        I'm Rob, a software engineer at
-        <a href="https://www.google.com">Google</a> and member of
-        <a href="https://www.alphabetworkersunion.org">AWU-CWA</a> based in
-        Brooklyn.
-      </p>
-      <p>You can read more about my work <a href="experience.html">here.</a></p>
-    </div>
-
-    <div class="activities">
-      Outside of my interest in technology and labor, here's what I'm up to
-      lately.
-      <p class="activity">
-        <span class="activity-description">🎮 Playing:</span> Final Fantasy XVI,
-        Metroid Prime, Link's Awakening
-      </p>
-      <p class="activity">
-        <span class="activity-description">📺 Watching:</span> The Bear
-      </p>
-      <p class="activity">
-        <span class="activity-description">📚 Reading:</span> Babel, or the
-        Necessity of Violence
-      </p>
-      <p class="activity">
-        <span class="activity-description">🎧 Listening to:</span> The Callous
-        Daoboys, Holy Fawn, Sleep Token
-      </p>
+      <div class="activities">
+        Outside of my interest in technology and labor, here's what I'm up to
+        lately:
+        <ul>
+          <li>
+            <span class="six-hundred">🎮 Playing:</span> Final Fantasy XVI,
+            Metroid Prime, Link's Awakening
+          </li>
+          <li><span class="six-hundred">📺 Watching:</span> The Bear</li>
+          <li>
+            <span class="six-hundred">📚 Reading:</span> Babel, or the Necessity
+            of Violence
+          </li>
+          <li>
+            <span class="six-hundred">🎧 Listening to:</span> The Callous
+            Daoboys, Holy Fawn, Sleep Token
+          </li>
+        </ul>
+      </div>
     </div>
   </body>
 </html>
